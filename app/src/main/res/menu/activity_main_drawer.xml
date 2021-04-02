@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_popular"
+            android:icon="@drawable/popular_icon"
+            android:title="Popular" />
+        <item
+            android:id="@+id/nav_random"
+            android:icon="@drawable/random_icon"
+            android:title="Random" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/favourite_icon"
+            android:title="Liked" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_icon"
+            android:title="About" />
+
+
+    </group>
+</menu>

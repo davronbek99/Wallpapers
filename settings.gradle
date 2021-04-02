@@ -1,0 +1,3 @@
+include ':library'
+include ':app'
+rootProject.name = "4K full walpapers"

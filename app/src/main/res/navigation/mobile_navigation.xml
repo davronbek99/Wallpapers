@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.a4kfullwalpapers.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_popular"
+        android:name="com.example.a4kfullwalpapers.ui.home.PopularFragment"
+        android:label="Popular"
+        tools:layout="@layout/fragment_popular" />
+
+    <fragment
+        android:id="@+id/nav_random"
+        android:name="com.example.a4kfullwalpapers.ui.home.RandomFragment"
+        android:label="Random"
+        tools:layout="@layout/fragment_random" />
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.example.a4kfullwalpapers.ui.home.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.a4kfullwalpapers.ui.home.AboutFragment"
+        android:label="About us"
+        tools:layout="@layout/fragment_about" />
+
+
+    <fragment
+        android:id="@+id/image_fragment"
+        android:name="com.example.a4kfullwalpapers.ui.home.ImageFragment"
+        android:label="fragment_image"
+        tools:layout="@layout/fragment_image" />
+
+    <fragment
+        android:id="@+id/image_view_fragment"
+        android:name="com.example.a4kfullwalpapers.ui.home.ImageViewFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_image_view" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.a4kfullwalpapers.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+
+
+</navigation>
